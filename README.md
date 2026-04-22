@@ -1,4 +1,4 @@
-## Primate Cortical Organoid Time-Lapse Tracking
+# Primate Cortical Organoid Time-Lapse Tracking
 
 This repository contains trained machine learning models, cell tracking datasets, and metadata derived from two-month continuous time-lapse recordings of primate (human and chimpanzee) cortical organoids. 
 
