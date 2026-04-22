@@ -5,14 +5,14 @@ This repository contains trained machine learning models, cell tracking datasets
 To accommodate the coarse imaging intervals (30–50 minutes) required to minimize phototoxicity during long-term recording, cell lineage tracking was performed using the [ELEPHANT](https://github.com/elephant-track) platform. 
 Models were generated via incremental deep learning and rounds of manual proofreading to ensure a relatively unbiased lineage mapping.
 
-### Repository Contents
+## Repository Contents
 
 * *`*.pth` (Trained Models):* Fully trained 3D U-Net convolutional neural network weights for nuclear detection and optical flow estimation, optimized specifically for longitudinal organoid time-lapse data.
 * *`*.mastodon` (Tracking Data):* Project files containing the human-validated cell lineage tracking trees and spatial coordinates.
 * *`*.xml` (Metadata):* Configuration files required to link the Mastodon tracking data to the raw HDF5 imaging datasets.
 
 
-### Raw Imaging Datasets
+## Raw Imaging Datasets
 
 Due to file size constraints, the raw 4D time-lapse imaging datasets are hosted externally via Google Drive in `.h5` (HDF5) format. 
 
@@ -22,7 +22,7 @@ Due to file size constraints, the raw 4D time-lapse imaging datasets are hosted 
 *Note: Download the corresponding `.xml` files from this repository and place them in the same local directory as the `.h5` files to properly initialize the datasets for viewing in Mastodon.*
 
 
-### Software Requirements
+## Software Requirements
 
 To utilize these resources, the following software is required:
 1. [Fiji (ImageJ)](https://imagej.net/software/fiji/)
