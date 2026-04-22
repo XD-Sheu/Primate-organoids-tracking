@@ -1,4 +1,4 @@
-# Primate Cortical Organoid Time-Lapse Tracking
+## Primate Cortical Organoid Time-Lapse Tracking
 
 This repository contains trained machine learning models, cell tracking datasets, and metadata derived from two-month continuous time-lapse recordings of primate (human and chimpanzee) cortical organoids. 
 
@@ -29,9 +29,9 @@ To utilize these resources, the following software is required:
 2. [Mastodon](https://github.com/mastodon-sc/mastodon) (Installed as a Fiji plugin)
 3. [ELEPHANT Client & Server](https://elephant-track.github.io/) (Required only if running further predictions or incremental training with the provided `.pth` weights)
    
+
 For the foundational tracking platform methodology, please cite:
 > Sugawara, K., Çevrim, Ç., & Averof, M. (2022). Tracking cell lineages in 3D by incremental deep learning. *eLife*, 11, e69380. PMID: [34989675](https://pubmed.ncbi.nlm.nih.gov/34989675/)
-
 
 For any questions regarding the dataset and methodology, please contact:
 * **Dr. Ikuo K. Suzuki** (suzuki.ikuo@ikuosuzuki-lab.com)
