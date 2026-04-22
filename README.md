@@ -11,6 +11,7 @@ Models were generated via incremental deep learning and rounds of manual proofre
 * *`*.mastodon` (Tracking Data):* Project files containing the human-validated cell lineage tracking trees and spatial coordinates.
 * *`*.xml` (Metadata):* Configuration files required to link the Mastodon tracking data to the raw HDF5 imaging datasets.
 
+
 ### Raw Imaging Datasets
 
 Due to file size constraints, the raw 4D time-lapse imaging datasets are hosted externally via Google Drive in `.h5` (HDF5) format. 
@@ -19,6 +20,7 @@ Due to file size constraints, the raw 4D time-lapse imaging datasets are hosted 
 * [Chimpanzee Cortical Organoid Raw Dataset (.h5)](link2)
 
 *Note: Download the corresponding `.xml` files from this repository and place them in the same local directory as the `.h5` files to properly initialize the datasets for viewing in Mastodon.*
+
 
 ### Software Requirements
 
