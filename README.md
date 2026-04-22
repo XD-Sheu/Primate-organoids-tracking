@@ -23,9 +23,9 @@ Due to file size constraints, the raw 4D time-lapse imaging datasets are hosted 
 ## Software Requirements
 
 To utilize these resources, the following software is required:
-1. [Fiji (ImageJ)](https://imagej.net/software/fiji/)
-2. [Mastodon](https://github.com/mastodon-sc/mastodon) (Installed as a Fiji plugin)
-3. [ELEPHANT Client & Server](https://elephant-track.github.io/) (Required only if running further predictions or incremental training with the provided `.pth` weights)
+[Fiji (ImageJ)](https://imagej.net/software/fiji/)
+[Mastodon](https://github.com/mastodon-sc/mastodon) (Installed as a Fiji plugin)
+[ELEPHANT Client & Server](https://elephant-track.github.io/) (Required only if running further predictions or incremental training with the provided `.pth` weights)
 
 For the foundational tracking platform methodology, please cite:
 > Sugawara, K., Çevrim, Ç., & Averof, M. (2022). Tracking cell lineages in 3D by incremental deep learning. *eLife*, 11, e69380. PMID: [34989675](https://pubmed.ncbi.nlm.nih.gov/34989675/)
